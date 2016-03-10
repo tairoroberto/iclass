@@ -1,0 +1,22 @@
+/* Stylesheet for my demo pages for jScrollPane - these styles aren't necessary for using jScrollPane and aren't specific to any particular example */
+
+a.jScrollArrowUp { background: url(../img/basic_arrow_up.gif) repeat-x 0 0; }
+a.jScrollArrowUp:hover { background-position: 0 -15px; }
+a.jScrollArrowDown { background: url(../img/basic_arrow_down.gif) repeat-x 0 0; }
+a.jScrollArrowDown:hover { background-position: 0 -15px; }
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover { background-position: 0 -30px; }
+
+.orange-bar .jScrollPaneTrack { background: #f60; }
+.orange-bar .jScrollPaneDrag { background: #00f url(../jScrollPane/images/osx_drag_middle.gif) no-repeat 50% 50%; }
+.orange-bar .scroll-pane { background: #69f; }
+			
+.holder { margin: 10px; }
+.holder h3 { color: #404040; font-size: 16px; padding-bottom: 5px; }
+.scroll-pane { height: 300px; overflow: auto; background: #FFF; color: #404040; float: left; }
+
+.wide { width: 400px; }
+.super-wide { width: 700px; }
+.tall { height: 400px; }
+
+
+#pane2 { height: 300px; }

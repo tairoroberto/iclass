@@ -1,0 +1,202 @@
+body 
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	font-family: arial;
+	font-size: 12px;
+	color: #000000;
+}
+
+.floatLeft{	float: left; }
+.floatRight{ float: right; }
+.clear{ clear: both; }
+
+
+.tituloPagina
+{
+	color: #838483; 
+	font-weight: bold;
+	text-align: left;
+	padding: 2px;
+}
+
+.campoIncluirJogo
+{
+	text-align: left;
+}
+
+.campoEstaticoRateio
+{
+	color: #666666;
+	text-align: left;
+}
+
+.btAtivo
+{
+	border: 1px solid #2e2e2e;
+	background-color:  #2dac33;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 12px;
+	width: 100px;
+	font-weight: bold;
+}
+
+.btDesativo
+{
+	border: 1px solid #2e2e2e;
+	background-color:  #CC4040;
+	width: 100px;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.inputText
+{
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	color: #666666;
+	font-size: 12px; font-family: arial;
+}
+
+.inputButton
+{
+	border: 1px solid #515ebd;
+	background-color: #4f6aa8;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.helpText
+{
+	color: #cacaca;
+}
+
+.msgError
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.topTextFiltros
+{
+	color: #606060;
+	font-weight: bold;
+}
+
+.topTextTitleGrid
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #0b3190;
+	text-align: center;
+}
+
+.combo
+{
+	font-size: 12px;
+	font-family: arial;
+	color: #808080;
+}
+
+.detCliente
+{
+	color: #999999;
+}
+
+a.voltarListagem:link
+
+{
+
+	text-decoration: none;
+
+	color: #666666;
+
+}
+
+a.voltarListagem:visited
+
+{
+
+	text-decoration: none;
+
+	color: #666666;
+
+}
+
+a.voltarListagem:hover
+
+{
+
+	text-decoration: underline;
+
+	color: #666666;
+
+}
+
+a.voltarListagem:active
+
+{
+
+	text-decoration: none;
+
+	color: #666666;
+
+}
+
+a.linkVoltar:link
+{
+	color: #686868;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.linkVoltar:visited
+{
+	color: #686868;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.linkVoltar:hover
+{
+	color:  #686868;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a.linkVoltar:active
+{
+	color: #686868;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.linkWhite:link
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.linkWhite:visited
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.linkWhite:hover
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a.linkWhite:active
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}

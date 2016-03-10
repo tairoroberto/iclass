@@ -1,0 +1,57 @@
+.scroll01 .contentScroll {
+	width: 670px;
+	height: 530px;
+}
+
+.scroll01 .contentScroll2 {
+	width: 583px;
+	height: 200px;
+}
+
+.scroll01 .jScrollPaneTrack {
+	background: url(Util/jScrollPane/images/osx_track.gif) repeat-y;
+}
+.scroll01 .jScrollPaneDrag {
+	background: url(Util/jScrollPane/images/osx_drag_middle.gif) repeat-y;
+}
+.scroll01 .jScrollPaneDragTop {
+	background: url(Util/jScrollPane/images/osx_drag_top.gif) no-repeat;
+	height: 6px;
+}
+.scroll01 .jScrollPaneDragBottom {
+	background: url(Util/jScrollPane/images/osx_drag_bottom.gif) no-repeat;
+	height: 7px;
+}
+.scroll01 a.jScrollArrowUp {
+	height: 24px;
+	background: url(Util/jScrollPane/images/osx_arrow_up.png) no-repeat 0 -30px;
+}
+.scroll01 a.jScrollArrowUp:hover {
+	background-position: 0 0;
+}
+.scroll01 a.jScrollArrowDown {
+	height: 24px;
+	background: url(Util/jScrollPane/images/osx_arrow_down.png) no-repeat 0 -30px;
+}
+.scroll01 a.jScrollArrowDown:hover {
+	background-position: 0 0;
+}
+
+.left .jScrollPaneTrack {
+	left: 0;
+	right: auto;
+}
+.left a.jScrollArrowUp {
+	left: 0;
+	right: auto;
+}
+.left a.jScrollArrowDown {
+	left: 0;
+	right: auto;
+}
+
+/* IE SPECIFIC HACKED STYLES */
+* html .scroll01 .jScrollPaneDragBottom {
+	bottom: -1px;
+}
+/* /IE SPECIFIC HACKED STYLES */

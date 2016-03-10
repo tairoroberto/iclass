@@ -1,0 +1,50 @@
+<?
+// Inicializa o uso de sessões
+error_reporting(E_ALL ^ E_NOTICE);
+//error_reporting(0);
+session_start();
+
+ini_set("session.gc_maxlifetime", 1500); // Seta o tempo da sessão (em milisegundos)
+
+set_time_limit(300); //5 minutos de tempo limite para execução de scripts.
+
+// Evitando cache de arquivo
+header('Content-Type: text/html; charset=ISO-8859-1');
+header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+header('Last Modified: '. gmdate('D, d M Y H:i:s') .' GMT');
+header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+header('Pragma: no-cache');
+header('Expires: 0');
+
+require_once "class/dataBase.php";
+
+$db = new dataBase();
+	
+/*$db->conecta("localhost", "root", "root"); //banco de homologação
+$db->selectDb("iclass");
+$pre = "iclass_"; */
+$db->conecta("mysql01.redehost.com.br", "fsimoes", "fabianosim"); //banco de homologação
+$db->selectDb("fabianosimoes");
+$pre = "iclass_";
+
+
+/*** CONSTANTES GERAIS ****/
+define("PRE", $pre); //prefixo de todas as tabelas
+define("M_OVER_MENU_COLOR", "#5ee574");
+define("M_OUT_MENU_COLOR", "");
+define("M_OVER_ITEM_MENU_COLOR", "#dfdfdf");
+define("M_OUT_ITEM_MENU_COLOR", "");
+define("MENU_TEXT_COLOR", "#328d3b");
+define("BG_MENU_COLOR", "#efefef");
+define("TITULO_INTERNAS_COLOR", "#FFFFFF");
+define("TITULO_INTERNAS_BGCOLOR", "#a3a3a3");
+define("MSG_WELCOME_COLOR" , "#003093");
+http://www.fabianosimoes.com.br/projetos/itailers/iclass/site/admin/http://www.fabianosimoes.com.br/projetos/itailers/iclass/site/admin/
+/* CAMINHOS */
+define("PATH_IMG_FABRICANTE", "../../img_fabricantes/"); //caminho das imagens dos usuários do site
+define("PATH_IMG_PREMIO", "../../img_premios/"); //caminho das imagens dos usuários do site
+
+require_once "functions.inc.php";
+require_once "class/usuario.php";
+
+?>

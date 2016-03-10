@@ -1,0 +1,511 @@
+	@charset "utf-8";
+/* CSS Document */
+
+body{padding: 0;
+margin: 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #666666;
+background-image:url(../img/bg.jpg);
+}
+
+p{margin-left:20px;
+}
+
+input{ margin:0 5px 8px 0;
+	
+}
+
+.inputText
+{
+	border: 1px solid #666666;
+	color: #666666;
+}
+
+.textAreaCadastro{width:583px;
+height:195px;
+margin-left:30px;
+}
+
+.msgErro
+{
+	width: 100%;
+	text-align: center;
+	color: #C00;
+	font-weight: bold;
+}
+
+img{border:0;
+}
+
+.float-left{float:left;
+}
+
+.float_right{float:right;
+}
+
+.geral{width:775px;
+height:1000px;
+margin:auto;
+}
+
+.header{width:775px;
+height:155px;
+}
+
+.logo{ background:url(../img/LogoIclassKaspersky.png) no-repeat;
+width:265px;
+height:85px;
+float:left;
+cursor: pointer;
+margin-top:8px;
+}
+
+.logo h1{overflow:hidden;
+font-size:0;
+}
+
+.slogan{width:370px;
+height:60px;
+float: right;
+margin-top:8px;
+}
+
+.slogan h2{font-size:16px;
+color:#666666;
+text-align:right;
+}
+.saudacao{width:480px;
+height:25px;
+float:right;
+text-align: right;
+}
+
+.saudacao ul li{ display:inline;
+list-style:none;
+}
+
+.saudacao a{color:#598EB3;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+.menu{background:url(../img/menu.png) repeat-x;
+width:775px;
+height:30px;
+display: inline-block;
+margin:5px 0 2px 0;
+}
+
+.menu ul li{ display:inline;
+list-style:none;
+}
+.menu ul { margin-top: 10px;
+}
+
+.divCadastroOk
+{
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #333;
+	padding-top: 100px;
+}
+
+.menu a{color:#FFFFFF;
+text-decoration:none;
+font-weight:bold;
+margin:0 0 10px 20px;
+}
+
+.texto_menu{margin-top:-5px;
+margin-left:-40px;
+}
+
+.breandcrumb{background:url(../img/breandcrumb2.png) repeat-x;
+width:775px;
+height:25px;
+float:left;
+}
+
+.texto_breandcrumb{margin-top:-10px;
+margin-left:-20px;
+}
+
+.breandcrumb ul li{ display:inline;
+list-style:none;
+margin-bottom:20px;
+}
+.breandcrumb ul { 
+margin-top:12px;
+}
+
+.breandcrumb a{color:#FFFFFF;
+text-decoration:none;
+font-weight:bold;
+}
+
+.conteudo{width:776px;
+min-height:900px;
+background-color: #FFFFFF !important;
+float:right;
+border: #999999 solid 1px;
+margin-top:5px;
+position: relative;
+}
+
+.conteudo a{color:#598EB3;
+text-decoration:none;
+font-weight:bold;
+}
+/*/
+.borda_esquerda_sup{background:url(../img/borda_esquerda_sup.jpg) no-repeat;
+width:7px;
+height:7px;
+margin:-1px;
+}
+
+.borda_direita_sup{background:url(../img/borda_direita_sup.jpg) no-repeat;
+width:7px;
+height:7px;
+margin:-6px -1px 0 0;
+float:right;
+}
+
+.borda_esquerda_inf{background:url(../img/borda_esquerda_inf.jpg) no-repeat;
+width:7px;
+height:7px;
+margin:707px 0 0 -1px;
+}
+
+.borda_direita_inf{background:url(../img/borda_direita_inf.jpg) no-repeat;
+width:7px;
+height:7px;
+margin:-7px 0 0 769px;
+}*/
+
+.borda_sup{background:url(../img/borda_sup.png) no-repeat;
+width:780px;
+height:14px;
+margin:-8px -2px 0;
+}
+
+.borda_inf{background:url(../img/borda_inf.png) no-repeat;
+width:780px;
+height:14px;
+margin: -3px;
+margin-bottom: -10px;
+position: absolute;
+bottom: 0px;
+}
+
+.rodape{width:775px;
+height:150px;
+float:left;
+}
+
+.logo_rodape{ background:url(../img/LogoItailers.png) no-repeat;
+width:220px;
+height:70px;
+margin-top: 10px;
+float: left;
+}
+
+.logo_rodape h1{overflow:hidden;
+font-size:0;
+margin-top:20px;
+}
+
+.texto_rodape{width:520px;
+height:70px;
+float:right;
+margin-top: 10px;
+color:#666666;
+text-align:right;
+}
+
+.destaque_fonte{color:#006633;
+font-weight:bold;
+}
+	
+.usuario_cadastrado{width:350px;
+height:250px;
+padding-left:100px;
+float:left;
+}
+
+.novos_usuarios{width:350px;
+height:500px;
+padding-left:100px;
+background:#66666;
+display: inline;
+}
+
+.duvida{width:775px;
+height:300px;
+margin-top:70px;
+}
+
+.usuario_cadastrado p{margin:20px;
+}
+
+.esqueceu_sua_senha{margin:10px 0 20px 0;
+}
+
+.botao{margin-top:20px;
+}
+
+
+.endereco{width:576px;
+}
+
+.cep{margin-right:48px;
+}
+
+.cidade{margin-right:48px;
+}
+
+.senha{width:217px;
+margin-right:50px;
+}
+
+.repita{width:217px;
+}
+
+.termos_de_uso{ margin-left:50px;
+font-weight:bold;
+}
+
+.botao_cadastre-se{ margin-left:200px; height: 23px;
+}
+
+.botao_registrar{margin-right:50px;
+}
+
+.formulario{margin-left:20px;
+line-height: 20px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.floatLeft
+{
+	float: left;	
+}
+
+.floatRight
+{
+	float: left;	
+}
+
+.minha_contata_cot_esquerdo{
+	width:213px;
+	height:700px;
+	float:left;
+	border-right: 1px solid #CCCCCC;
+}
+
+.alterar_foto{width:150px;
+height:150px;
+margin:auto;
+margin-top:20px;
+border: #999999 solid 1px;
+}
+
+.alterar_foto_link{ margin-left:118px;
+}
+
+.minha_contata_cot_esquerdo ul li{ list-style:none;
+}
+
+.minha_contata_cot_esquerdo ul li a{ color:#666666;
+font-weight:100;
+}
+
+.ganhadores_do_mes{margin-left:0;
+}	
+
+.minha_contata_cot_direito{ width:520px;
+height:800px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+padding-top:0;
+float: left;
+}
+
+.minha_contata_cot_direito .destaque_fonte{ font-size:18px;
+margin-left:0;
+}
+
+.img_minha_conta{margin-right:5px;
+float:left;
+}
+
+.pruduto{width:480px;
+
+}
+
+.pruduto_publicado a{ color:#666666;
+}
+
+.paginacao{width:320px;
+padding-top: 20px;
+}
+
+.paginacaoCombo
+{
+	width: 200px;
+	padding-top: 30px;
+}
+
+.navegacaoTreinamento
+{
+	background-color: #FFFFFF;
+	height: 30px;
+	padding-left: 600px;
+}
+
+.navegacaoQuiz
+{
+	background-color: #FFFFFF;
+	height: 30px;
+	padding-left: 600px;
+}
+
+.resposta
+{
+	padding: 10px;	
+	padding-left: 30px;
+}
+
+.pergunta
+{
+	padding: 5px;	
+	font-weight: bold;
+}
+
+.paginacao ul li{ list-style:none;
+display:inline;
+}
+
+.anterior{margin-right:50px;
+}
+
+.proximo{margin-left:50px;
+}
+
+.logo_fabricante
+{
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.produto{
+width:670px;
+height:430px;
+padding:20px;
+}
+
+
+.produto h2{margin-top:-30px;
+}
+
+.produto h3{font-size:20px;
+color:#FFF;
+}
+
+.produto a{text-decoration:none;
+color:#598EB3;
+}
+
+.produto ul li{margin-left:200px;
+}
+
+.bg_titulo_produto{background:url(../img/bg_titulo_produto.jpg) no-repeat;
+width:696px;
+height:57px;
+padding:1px 35px;
+}
+
+#tituloTreinamento
+{
+	width: 330px;	
+}
+
+#tempoQuestao
+{
+	width: 270px;
+	height: 18px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.fechar {float:right}
+.logo_iomega_produto{margin-left:537px;}
+.img_produto_large{margin:20px;float:left;
+}
+
+.divFrameTreinamento
+{
+	border: 1px solid #CCCCCC; 
+	width: 660px;
+	height: 415px;	
+}
+
+.divFrameQuiz
+{
+	border: 1px solid #CCCCCC; 
+	width: 650px;
+	height: 415px;	
+}
+
+.divLoadingQuiz
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 21px;
+	padding-top: 180px;
+}
+
+/*Modal*/
+#modal {background:#fff;width:700px;height:500px;position:fixed;top:-250px;left:-350px;margin:-250px 0 0 -350px;filter:alpha(opacity=0);opacity:0.0}
+#transp {background-color:#000;width:100%;height:100%;position:fixed;filter:alpha(opacity=80);opacity:0.8;top:0;left:0;display:none}
+
+/*Esqueci Senha */
+.boxEsqueciSenha
+{
+	width: 400px; 
+	height: 180px; 
+	background-color: white; 
+	border: 1px solid #999999; 
+	position: absolute; 
+	z-index: 999; 
+	left: 0px; 
+	top: 0px;
+}
+
+/*Cadastro de Foto */
+.boxCadastroFoto
+{
+	width: 600px; 
+	height: 480px; 
+	background-color: white; 
+	border: 1px solid #999999; 
+	position: absolute; 
+	z-index: 999; 
+	left: 0px; 
+	top: 0px;
+}
+
+hr.hrelvis {border: none 0; 
+border-top: 1px dashed  #CCC;/*the border*/
+height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
