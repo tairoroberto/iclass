@@ -1,6 +1,5 @@
 <?
 require_once "../../inc/config.inc.php";
-require_once "../../inc/class/usuario.php";
 require_once "../../inc/class/chaveacesso.php";
 
 //vê se está logado mesmo.
@@ -9,7 +8,7 @@ if( !validaLogin() ) {
 	die();
 }
 
-$usuario = new usuario();
+$chave  = new chaveacesso();
 
 ?>
 
@@ -61,7 +60,7 @@ $usuario = new usuario();
             var qtdChaves = $("#qtdChaves").val();
 
             if (qtdChaves != ''){
-
+                $('#acao').val('gerar_chaves');
                 formChaves.submit();
                 $('.div-ajax-carregamento-pagina').fadeOut('fast');
 
@@ -70,6 +69,13 @@ $usuario = new usuario();
                 $('.div-ajax-carregamento-pagina').fadeOut('fast');
             }
         }
+
+        /*Função que envia para ferar o arquivo excel com as chaves*/
+        function gerarExcel(){
+            $('#acao').val('excel');
+            formChaves.submit();
+        }
+
     </script>
 </head>
 
@@ -84,6 +90,7 @@ $usuario = new usuario();
 			<table style="width: 100%;" cellpadding="3" cellspacing="0">
 				<tr>
                     <form action="" method="POST" id="formChaves" name="formChaves">
+                        <input type="hidden" id="acao" name="acao" value=""/>
 					<td style="height: 60px; padding-top: 10px; border: 1px solid #CCCCCC; background-color: #EFEFEF;">
 
 							<table border="0" cellpadding="4" cellspacing="0" style="width: 100%;">
@@ -100,7 +107,7 @@ $usuario = new usuario();
 									<td id="txtNome">Quantidade de Chaves:</td>
 									<td><select name="qtdChaves" id="qtdChaves" class="form-control">
                                             <option value=''>-- Selecione --</option>
-                                            <option value='1'>1</option>
+                                            <option value='5'>5</option>
                                             <option value='10'>10</option>
                                             <option value='15'>15</option>
                                             <option value='20'>20</option>
@@ -138,21 +145,22 @@ $usuario = new usuario();
 <div id="Carregando" style="display: none;" class="jquery-waiting-base-container">Carregando...</div>
 
     <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
+        <div id="myModal" class="modal fade" role="dialog" data-backdrop="static">
             <div class="modal-dialog">
 
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Chaves geradas</h4>
+                        <h4 class="modal-title">Chaves de acesso</h4>
                     </div>
 
-                    <div class="modal-body">
-                        <p>Some text in the modal.</p>
+                    <div class="modal-body" id="modal_body">
+
                     </div>
 
                     <div class="modal-footer">
+                        <button type="button" onclick="gerarExcel();" style="float: left;background-color: #4F6AA8; color: #FFFFFF;" class="btn btn-default" data-dismiss="modal">Gerar Excel</button>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
@@ -163,11 +171,67 @@ $usuario = new usuario();
 
 <?php
 
-    if(isset($_POST["qtdChaves"]) && $_POST["qtdChaves"] != ''){
+    if(isset($_POST["qtdChaves"], $_POST["acao"]) && $_POST["qtdChaves"] != '' && $_POST["acao"] == 'gerar_chaves'){
         $sql = "";
+        $qtdChaves = $_POST["qtdChaves"];
 
-        echo '<script> $("#myModal").modal("show"); </script>';
-        //echo '<script>alert('.$_POST["qtdChaves"].');</script>';
+        for($i =0; $i < $qtdChaves; $i++){
+            $token = substr(md5(uniqid(rand(), true)), 0, 10); // token de 10 digitos
+
+           /* $chave->insertChaveAcesso(
+                array('valor_chave' => $token, 'ativa' => 0, 'data_cadastro' => date('Y-m-d H:i:s'))
+            );*/
+        }
+
+
+        $chaves = $chave->listaChavesAcessoInativas();
+
+        $table = '"<table class=\'table table-condensed table-hover\'>" +
+                        	"<thead>" +
+                        	"</thead>" +
+                        	"<tbody>" + ';
+
+        $count = 0;
+        $td = '';
+        foreach ($chaves as $ch) {
+
+            if($count == 0){
+                $table .= '"<tr style=\'text-align: center\'>" +';
+            }
+
+            $td .= '"<td><h5>'.$ch->valor_chave.'</h5></td>" +';
+
+            //Fecha a tag
+            if($count == 4){
+                $table .= $td;
+                $table .= '"</tr>" + ';
+                $td = ''; // limpo as Tds
+                $count = 0; //Zero o contador
+                continue;
+            }
+
+            $count++;
+        }
+
+        $table .= '"</tbody>" +
+                  "</table>"';
+
+        echo "<script>
+                $('#modal_body').html(".$table.");
+                $('#myModal').modal('show');
+              </script>";
+    }
+
+    if(isset($_POST["acao"]) && $_POST["acao"] == 'excel'){
+        $chaves = $chave->listaChavesAcessoInativas();
+
+        foreach ($chaves as $ch) {
+            //Rotina para gerar excel
+
+        }
+        echo "<script>
+                alert('Excel gerado!');
+              </script>";
     }
 
 ?>

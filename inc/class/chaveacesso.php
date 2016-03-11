@@ -15,19 +15,15 @@ class chaveacesso {
     }
 
     //insere um usuario do admin
-    function insertChaveAcesso() {
+    function insertChaveAcesso($chave) {
 
-        $sql 	= "INSERT INTO ".PRE."usuario (
-							nomeUsuario,
-							login,
-							senha,
-							isAdmin,
-							dataCriacao)
-					VALUES ('" . trim($_POST['nomeUsuario']) . "',
-							'" . trim($_POST['login']) . "',
-							'" . md5(trim($_POST['senha'])) . "',
-							'" . (trim($_POST['isAdmin']) ? $_POST['isAdmin'] : "0") . "',
-							NOW())";
+        $sql 	= "INSERT INTO ".PRE."chaves_acesso (
+							valor_chave,
+							ativa,
+							data_cadastro)
+					VALUES ('" .trim($chave['valor_chave']). "',
+							" .$chave['ativa']. ",
+							'" .$chave['data_cadastro']. "')";
 
         $query	= $this->db->query($sql);
 
@@ -35,94 +31,44 @@ class chaveacesso {
         return 1;
     }
 
-    //pega os perfis de um usuário
+    //pega uma chave de acesso
     function getChaveAcesso( $idChave ) {
         //perfis do usuário solicitado
-        $sqlPerfisUsuarios = "SELECT p.* FROM ".PRE."perfil_usuario pu INNER JOIN ".PRE."perfil p ON p.idPerfil = pu.idPerfil WHERE pu.idUsuario = ".$idUsuario." ORDER BY p.nome";
-        $queryPerfisUsuarios = $this->db->query($sqlPerfisUsuarios);
-        while( $r = $this->db->fetchObject($queryPerfisUsuarios) )
-            $linhas[] = $r;
+        $sql = "SELECT ch.* FROM ".PRE."chaves_acesso ch WHERE ch.id_chave = ".$idChave." ";
 
-        //todos os perfis
-        $sqlPerfis = "SELECT * FROM ".PRE."perfil WHERE ativo = '1' ORDER BY nome";
-        $queryPerfis = $this->db->query($sqlPerfis);
+        $queryChaves = $this->db->query($sql);
 
-        $arrPerfis = array();
-        while( $p = $this->db->fetchObject($queryPerfis) )
-        {
-            $arrPerfis["idPerfil"][] = $p->idPerfil;
-            $arrPerfis["nome"][] = $p->nome;
-            $arrPerfis["checked"][] = "";
-
-            //verifica se o perfil em questão está selecionado para o usuário
-            for( $i=0; $i<count($linhas); $i++ )
-            {
-                if( $p->idPerfil == $linhas[$i]->idPerfil )
-                {
-                    $arrPerfis["checked"][count($arrPerfis["checked"])-1] = "checked";
-                    break;
-                }
-            }
-
-        }
-        return $arrPerfis;
+        return $this->db->fetchObject($queryChaves);
     }
 
 
     //deleta um usuario
     function delChaveAcesso( $idChave ) {
-        $sql = "DELETE FROM ".PRE."usuario WHERE idUsuario = " .$idUsuario;
+        $sql = "DELETE FROM ".PRE."chaves_acesso ch WHERE ch.id_chave = " .$idChave;
         $query = $this->db->query($sql);
 
         if( $this->db->affectedRows() )
-            $_SESSION['msg'] = "Usu&aacute;rio exclu&iacute;do com sucesso.";
+            $_SESSION['msg'] = "Chave exclu&iacute;da com sucesso.";
         else
-            $_SESSION['msg'] = "N&atilde;o foi poss&iacute;vel excluir o usu&aacute;rio. Tente novamente.";
+            $_SESSION['msg'] = "N&atilde;o foi poss&iacute;vel excluir a chave. Tente novamente.";
 
         return;
     }
 
 
-    //lista os usuários
-    function listaChavesAcesso( $regPorPag ) {
-        if( !isset($_GET['p']) )
-            $p = 1;
-        else
-            $p = $_GET['p'];
+    //lista os chaves inativas
+    function listaChavesAcessoInativas() {
+        $chaves = array();
 
-        $start 		= ($p * $regPorPag) - $regPorPag;
-
-        $sql	 	= "SELECT * FROM ".PRE."usuario WHERE 1=1 ";
-
-        if( $_SESSION['fNomeUsuario'] != "" )
-        {
-            $sql .= "AND nomeUsuario LIKE '%". str_replace(' ', '%', $_SESSION['fNomeUsuario']) ."%'";
-        }
-
-        if( $_SESSION['fLogin'] != "" )
-        {
-            $sql .= "AND login LIKE '%". str_replace(' ', '%', $_SESSION['fLogin']) ."%'";
-        }
-
-        $orderBy = " ORDER BY nomeUsuario ASC ";
-
-        $sql .= $orderBy;
-
-        $tabela 	= paginacaoBar( $sql, $regPorPag, "listar.php?action=listar", $p );
-
-        $sql		.= " LIMIT " . $start . ", " . $regPorPag;
+        $sql	 	= "SELECT * FROM ".PRE."chaves_acesso WHERE ativa = 0";
 
         $query 		= $this->db->query($sql);
 
-        while( $usuario = $this->db->fetchObject( $query ) )
-            $r[] = $usuario;
+        while($chave = $this->db->fetchObject( $query )){
+            $chaves[] = $chave;
+        }
 
-        $grid = $this->montaGrid( $r );
-
-        //grid com a paginacao
-        $fullGrid = $grid . "<tr><td align='center' colspan='5'>" . $tabela . "</td></tr>";
-
-        return $fullGrid;
+        return $chaves;
     }
 }
 
