@@ -28,10 +28,20 @@ class chaveacesso {
         return $this->db->query($sql);
     }
 
-    //pega uma chave de acesso
+    //pega uma chave de acesso pelo id
     function getChaveAcesso( $idChave ) {
         //perfis do usuário solicitado
         $sql = "SELECT ch.* FROM ".PRE."chaves_acesso ch WHERE ch.id_chave = ".$idChave." ";
+
+        $queryChaves = $this->db->query($sql);
+
+        return $this->db->fetchObject($queryChaves);
+    }
+
+    //pega uma chave de acesso pelo valor da chave
+    function getChaveAcessoByValor($valor_chave ) {
+        //perfis do usuário solicitado
+        $sql = "SELECT ch.* FROM ".PRE."chaves_acesso ch WHERE ch.valor_chave = '".$valor_chave."' ";
 
         $queryChaves = $this->db->query($sql);
 

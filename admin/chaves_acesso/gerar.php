@@ -183,6 +183,7 @@ $chave  = new chaveacesso();
 
 <?php
 
+    /** Validações para chaves */
     if(isset($_POST["qtdChaves"], $_POST["acao"]) && $_POST["qtdChaves"] != '' && $_POST["acao"] == 'gerar_chaves'){
         $sql = "";
         $qtdChaves = $_POST["qtdChaves"];

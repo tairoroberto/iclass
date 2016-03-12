@@ -5,6 +5,7 @@
 	require_once "../../inc/class/loja.php";
 	require_once "../../inc/class/categoria.php";
 	require_once "../../inc/class/imagem.php";
+	require_once "../../inc/class/chaveacesso.php";
 	
 	//vê se está logado mesmo.
 	if( !validaLogin() )
@@ -17,6 +18,7 @@
 	$fabricante = new fabricante();
 	$loja = new loja();
 	$categoria = new categoria();
+	$chaves = new chaveacesso();
 	
 	if( $_GET['subaction'] == "delImg" )
 		$usuario_site->delImgUsuarioSite($_GET['idUsuarioSiteDel'], $_GET['numImg']);
@@ -201,6 +203,38 @@ function delImg(id, numImg)
 {
 	location.href = "incluir.php?action=alterar&p=<?=$_GET['p']?>&idUsuarioSite=<?=$_GET['idUsuarioSite']?>&idUsuarioSiteDel=" + id + "&numImg=" + numImg + "&subaction=delImg";
 }
+
+function validarChaveAcesso(){
+	var chave = $('#chave_acesso').val();
+	var action = $('#action_chave').val();
+	var label = $('#labeChave');
+
+	if(chave != ''){
+		$.ajax({
+			url: '../chaves_acesso/validar_chaves.php',
+			data: "valor_valor=" + chave + "&action=" + action,
+			type: "POST",
+			success: function(json) {
+				if(json != 'inexistente'){
+					json = JSON.parse(json);
+					if(json.ativa == 1){
+						label.css('display', 'block');
+						label.css('color', 'red');
+						label.html('Chave de acesso já está sendo usada por outro usuário');
+					}else {
+						label.css('display', 'block');
+						label.css('color', '#006400');
+						label.html('Chave de acesso permitida');
+					}
+				}else {
+					label.css('display', 'block');
+					label.css('color', 'red');
+					label.html('Chave de acesso não existe');
+				}
+			}
+		});
+	}
+}
 </script>
 <script src="../js/functions.inc.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
@@ -278,7 +312,20 @@ function delImg(id, numImg)
                         <td>Cargo:</td>
                         <td><input type="radio" name="cargo" value="Vendedor" <?php if($_POST['cargo'] == "Vendedor" || $linhaReg->cargo == "Vendedor") print "checked"; ?> /> Vendedor&nbsp;&nbsp;<input type="radio" name="cargo" value="Gerente" <?php if($_POST['cargo'] == "Gerente" || $linhaReg->cargo == "Gerente") print "checked"; ?> /> Gerente&nbsp;&nbsp;<input type="radio" name="cargo" value="Promotor" <?php if($_POST['cargo'] == "Promotor" || $linhaReg->cargo == "Promotor") print "checked"; ?> /> Promotor</td>
                     </tr>
-                    <tr>
+
+					<tr>
+						<td>* Chave de acesso:</td>
+						<td>
+							<input type="text" name="chave_acesso" id="chave_acesso"
+								   onblur="validarChaveAcesso();" style='text-align: left;' maxlength="10" size="15" class="inputText"
+								   <?php if(isset($linhaReg->valor_chave))print 'disabled';?>
+							value="<?=htmlentities($linhaReg->valor_chave, ENT_QUOTES)?><?=htmlentities($_POST['valor_chave'], ENT_QUOTES)?>" />
+							<label id="labeChave" style="color: red; font-family: bold; font-size: 12px;display: none;">Chave de Acesso Obrigatória</label>
+							<input type="hidden" name="action_chave" id="action_chave" value="validar_chave">
+						</td>
+					</tr>
+
+					<tr>
                         <td>* E-mail:</td>
                         <td><input type="text" name="email" id="email" style='text-align: left;' maxlength="300" size="30" class="inputText" value="<?=htmlentities($linhaReg->email, ENT_QUOTES)?><?=htmlentities($_POST['email'], ENT_QUOTES)?>" /></td>
                     </tr>

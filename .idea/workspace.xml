@@ -2,244 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d53dd7d7-d29e-4814-924b-f122c090534e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/chaves_acesso/excel_download.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Autoloader.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Autoloader.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/APC.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/APC.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/CacheBase.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/CacheBase.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/DiscISAM.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/DiscISAM.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/Igbinary.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/Igbinary.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/Memcache.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/Memcache.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/Memory.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/Memory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/MemoryGZip.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/MemorySerialized.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/PHPTemp.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/PHPTemp.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/SQLite.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/SQLite.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/SQLite3.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/SQLite3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorage/Wincache.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorage/Wincache.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CachedObjectStorageFactory.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CachedObjectStorageFactory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CalcEngine/CyclicReferenceStack.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/CalcEngine/Logger.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/CalcEngine/Logger.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Database.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Database.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/DateTime.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/DateTime.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Engineering.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Engineering.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Exception.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/ExceptionHandler.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/ExceptionHandler.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Financial.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Financial.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/FormulaParser.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/FormulaParser.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/FormulaToken.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/FormulaToken.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Function.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Function.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Functions.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Logical.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Logical.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/LookupRef.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/LookupRef.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/MathTrig.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/MathTrig.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Statistical.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Statistical.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/TextData.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/TextData.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/Token/Stack.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/Token/Stack.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Calculation/functionlist.txt" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Calculation/functionlist.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell/AdvancedValueBinder.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell/AdvancedValueBinder.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell/DataType.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell/DataType.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell/DataValidation.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell/DataValidation.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell/DefaultValueBinder.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell/DefaultValueBinder.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell/Hyperlink.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell/Hyperlink.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Cell/IValueBinder.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Cell/IValueBinder.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/DataSeries.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/DataSeries.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/DataSeriesValues.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/DataSeriesValues.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/Exception.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/Layout.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/Layout.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/Legend.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/Legend.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/PlotArea.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/PlotArea.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/Renderer/jpgraph.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/Renderer/jpgraph.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Chart/Title.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Chart/Title.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Comment.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Comment.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/DocumentProperties.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/DocumentProperties.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/DocumentSecurity.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/DocumentSecurity.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Exception.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/HashTable.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/HashTable.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/IComparable.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/IComparable.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/IOFactory.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/IOFactory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/NamedRange.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/NamedRange.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Abstract.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Abstract.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/CSV.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/CSV.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel2003XML.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel2003XML.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel2007.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel2007.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel2007/Chart.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel2007/Chart.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel2007/Theme.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel2007/Theme.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel5.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel5.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel5/Escher.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel5/Escher.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel5/MD5.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel5/MD5.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Excel5/RC4.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Excel5/RC4.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Exception.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/Gnumeric.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/Gnumeric.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/HTML.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/HTML.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/IReadFilter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/IReadFilter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/IReader.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/IReader.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/OOCalc.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/OOCalc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Reader/SYLK.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Reader/SYLK.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/ReferenceHelper.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/ReferenceHelper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/RichText.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/RichText.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/RichText/ITextElement.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/RichText/ITextElement.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/RichText/Run.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/RichText/Run.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/RichText/TextElement.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/RichText/TextElement.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Settings.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Settings.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/CodePage.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/CodePage.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Date.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Date.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Drawing.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Drawing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DgContainer.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DgContainer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DggContainer.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DggContainer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Excel5.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Excel5.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/File.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/File.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/Font.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/Font.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/CHANGELOG.TXT" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/LUDecomposition.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/LUDecomposition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/Matrix.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/Matrix.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/QRDecomposition.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/QRDecomposition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/utils/Error.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/utils/Error.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/JAMA/utils/Maths.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/JAMA/utils/Maths.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/OLE.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/OLE.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/OLE/ChainedBlockStream.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/OLE/PPS.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/OLE/PPS.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/OLE/PPS/File.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/OLE/PPS/File.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/OLE/PPS/Root.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/OLE/PPS/Root.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/OLERead.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/OLERead.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/PCLZip/pclzip.lib.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/PCLZip/readme.txt" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/PCLZip/readme.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/PasswordHasher.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/PasswordHasher.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/String.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/String.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/TimeZone.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/TimeZone.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/XMLWriter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/XMLWriter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/ZipArchive.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/ZipArchive.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/bestFitClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/bestFitClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/exponentialBestFitClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/linearBestFitClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/linearBestFitClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/logarithmicBestFitClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/polynomialBestFitClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/powerBestFitClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/powerBestFitClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Shared/trend/trendClass.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Shared/trend/trendClass.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Alignment.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Alignment.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Border.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Border.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Borders.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Borders.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Color.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Color.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Conditional.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Conditional.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Fill.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Fill.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Font.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Font.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/NumberFormat.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/NumberFormat.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Protection.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Protection.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Style/Supervisor.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Style/Supervisor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/AutoFilter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/AutoFilter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/BaseDrawing.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/BaseDrawing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/CellIterator.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/CellIterator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/ColumnDimension.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/ColumnDimension.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/Drawing.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/Drawing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/HeaderFooter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/HeaderFooter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/HeaderFooterDrawing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/MemoryDrawing.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/MemoryDrawing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/PageMargins.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/PageMargins.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/PageSetup.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/PageSetup.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/Protection.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/Protection.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/Row.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/Row.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/RowDimension.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/RowDimension.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/RowIterator.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/RowIterator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Worksheet/SheetView.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Worksheet/SheetView.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/WorksheetIterator.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/WorksheetIterator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Abstract.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Abstract.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/CSV.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/CSV.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Chart.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Chart.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Comments.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Comments.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/ContentTypes.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/ContentTypes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/DocProps.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/DocProps.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Drawing.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Drawing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Rels.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Rels.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/RelsRibbon.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/RelsRibbon.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/RelsVBA.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/RelsVBA.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/StringTable.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/StringTable.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Style.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Style.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Theme.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Theme.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Workbook.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Workbook.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/Worksheet.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/Worksheet.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel2007/WriterPart.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel2007/WriterPart.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/BIFFwriter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/BIFFwriter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/Escher.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/Escher.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/Font.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/Font.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/Parser.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/Parser.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/Workbook.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/Workbook.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/Worksheet.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/Worksheet.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Excel5/Xf.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Excel5/Xf.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/Exception.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/Exception.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/HTML.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/HTML.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/IWriter.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/IWriter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/PDF.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/PDF.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/PDF/Core.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/PDF/Core.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/PDF/DomPDF.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/PDF/DomPDF.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/PDF/mPDF.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/PDF/mPDF.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/Writer/PDF/tcPDF.php" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/Writer/PDF/tcPDF.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/bg/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/bg/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/cs/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/cs/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/cs/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/cs/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/da/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/da/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/da/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/da/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/de/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/de/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/de/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/de/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/en/uk/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/en/uk/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/es/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/es/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/es/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/es/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/fi/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/fi/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/fi/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/fi/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/fr/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/fr/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/fr/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/fr/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/hu/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/hu/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/hu/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/hu/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/it/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/it/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/it/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/it/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/nl/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/nl/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/nl/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/nl/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/no/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/no/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/no/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/no/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/pl/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/pl/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/pl/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/pl/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/pt/br/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/pt/br/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/pt/br/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/pt/br/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/pt/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/pt/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/pt/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/pt/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/ru/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/ru/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/ru/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/ru/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/sv/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/sv/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/sv/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/sv/functions" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/tr/config" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/tr/config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel/PHPExcel/locale/tr/functions" afterPath="$PROJECT_DIR$/inc/class/PHPExcel/PHPExcel/locale/tr/functions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/img/loading_bar.gif" afterPath="$PROJECT_DIR$/admin/img/loading_bar.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/chaves_acesso/validar_chaves.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/chaves_acesso/excel_download.php" afterPath="$PROJECT_DIR$/admin/chaves_acesso/excel_download.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/chaves_acesso/gerar.php" afterPath="$PROJECT_DIR$/admin/chaves_acesso/gerar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/js/jquery-1.12.0.min.js" afterPath="$PROJECT_DIR$/admin/js/jquery-1.12.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/usuarios_site/incluir.php" afterPath="$PROJECT_DIR$/admin/usuarios_site/incluir.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/class/chaveacesso.php" afterPath="$PROJECT_DIR$/inc/class/chaveacesso.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/class/usuario_site.php" afterPath="$PROJECT_DIR$/inc/class/usuario_site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/cadastro.php" afterPath="$PROJECT_DIR$/pages/cadastro.php" />
     </list>
     <ignored path="iclass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -284,67 +54,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gerar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/chaves_acesso/gerar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0740743">
-              <caret line="187" column="41" selection-start-line="187" selection-start-column="41" selection-end-line="187" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#4;n#table#1;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#1;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1457753036861" expanded="true" signature="925:1302" placeholder="{...}" />
-                <marker date="1457753036861" expanded="true" signature="8326:8355" placeholder="..." />
-                <marker date="1457753036861" expanded="true" signature="8326:8442" placeholder="..." />
-                <marker date="1457753036861" expanded="true" signature="8326:8447" placeholder="..." />
-                <marker date="1457753036861" expanded="true" signature="8363:8401" placeholder="..." />
-                <marker date="1457753036861" expanded="true" signature="8590:8608" placeholder="..." />
-                <marker date="1457753036861" expanded="true" signature="9071:9191" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chaveacesso.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inc/class/chaveacesso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43367347">
-              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-              <folding>
-                <marker date="1457752549711" expanded="true" signature="353:532" placeholder="INSERT INTO ${PRE}chaves_acesso... " />
-                <marker date="1457752549711" expanded="true" signature="353:562" placeholder="INSERT INTO ${PRE}usuario... " />
-                <marker date="1457752549711" expanded="true" signature="353:563" placeholder="INSERT INTO ${PRE}chaves_acesso... " />
-                <marker date="1457752549711" expanded="true" signature="741:801" placeholder="SELECT ch.* ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="741:802" placeholder="SELECT ch.* ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="741:804" placeholder="SELECT p.* F... ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="741:816" placeholder="SELECT ch.* ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="1010:1066" placeholder="DELETE FROM " />
-                <marker date="1457752549711" expanded="true" signature="1487:1528" placeholder="SELECT * FRO... ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="1487:1537" placeholder="SELECT * FRO... ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="1837:1880" placeholder="SELECT * FRO... ${PRE}" />
-                <marker date="1457752549711" expanded="true" signature="2223:2272" placeholder="Update usuar... " />
-                <marker date="1457752549711" expanded="true" signature="2223:2316" placeholder="Update usuar... " />
-                <marker date="1457752549711" expanded="true" signature="2357:2379" placeholder="Update usuar... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90871341-e2ba-4bf9-8a89-757b4856f935/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.4">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cadastro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="293" column="11" selection-start-line="293" selection-start-column="11" selection-end-line="293" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#input#9;n#p#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#17;n#p#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <marker date="1457818607213" expanded="true" signature="12211:12223" placeholder="..." />
+                <marker date="1457818607213" expanded="true" signature="12396:12412" placeholder="..." />
+                <marker date="1457818607213" expanded="true" signature="12428:12440" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -352,8 +83,111 @@
       <file leaf-file-name="dataBase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/class/dataBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.518518">
+            <state vertical-scroll-proportion="-8.296296">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="incluir.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/usuarios_site/incluir.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.8214285">
+              <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="93" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#13;n#table#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#td#1;n#tr#13;n#table#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario_site.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/class/usuario_site.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.259259">
+              <caret line="779" column="13" selection-start-line="779" selection-start-column="13" selection-end-line="779" selection-end-column="13" />
+              <folding>
+                <marker date="1457811579947" expanded="true" signature="1532:1624" placeholder="SELECT ch.* ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="2113:2237" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="2972:3764" placeholder="INSERT INTO ${PRE}usuario_site... " />
+                <marker date="1457811579947" expanded="true" signature="2972:3774" placeholder="INSERT INTO ${PRE}usuario_site... " />
+                <marker date="1457811579947" expanded="true" signature="2972:3805" placeholder="INSERT INTO ${PRE}usuario_site... " />
+                <marker date="1457811579947" expanded="true" signature="3983:4077" placeholder="SELECT ch.* ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="7920:7981" placeholder="SELECT extIm... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="13159:13213" placeholder="DELETE FROM " />
+                <marker date="1457811579947" expanded="true" signature="13840:13883" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="14570:15491" placeholder="SELECT DISTI... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="14782:14898" placeholder="SELECT COUNT... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="16422:16512" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="17041:17151" placeholder="SELECT acert... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="17245:17318" placeholder="SELECT COUNT... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="18043:18545" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18062:18080" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18136:18154" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18199:18217" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18286:18304" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18354:18372" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18417:18435" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="18490:18508" placeholder="..." />
+                <marker date="1457811579947" expanded="true" signature="18626:19557" placeholder="SELECT DISTI... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="18848:18964" placeholder="SELECT COUNT... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="20895:21005" placeholder="SELECT acert... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="21099:21172" placeholder="SELECT COUNT... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="25883:26583" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="25903:25921" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="25986:26004" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26058:26076" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26154:26172" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26231:26249" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26303:26321" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26377:26415" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26461:26523" placeholder="..." />
+                <marker date="1457811579947" expanded="true" signature="26699:26869" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26719:26737" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="26793:26831" placeholder="..." />
+                <marker date="1457811579947" expanded="true" signature="28364:28382" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="28446:28484" placeholder="..." />
+                <marker date="1457811579947" expanded="true" signature="28485:28990" placeholder="..." />
+                <marker date="1457811579947" expanded="true" signature="28517:28979" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="29028:29044" placeholder="..." />
+                <marker date="1457811579947" expanded="false" signature="29304:29320" placeholder="..." />
+                <marker date="1457811579947" expanded="true" signature="29869:30863" placeholder="SELECT count... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="30352:30643" placeholder="SELECT DISTI... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="31086:31334" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="31479:31545" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="31853:31938" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="32081:32137" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="32908:32955" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="33099:33214" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="33368:33409" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="33629:33657" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="33826:33882" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="34058:34086" placeholder="SELECT * FRO... ${PRE}" />
+                <marker date="1457811579947" expanded="true" signature="34299:34370" placeholder="SELECT * FRO... ${PRE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33128834">
+              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+              <folding>
+                <marker date="1457817469619" expanded="true" signature="5332:5533" placeholder="SELECT idUsu... ${PRE}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -377,9 +211,15 @@
         <option value="$PROJECT_DIR$/admin/menu.php" />
         <option value="$PROJECT_DIR$/pages/chaveacesso.php" />
         <option value="$PROJECT_DIR$/admin/chaves_acesso/excel_download.php" />
-        <option value="$PROJECT_DIR$/inc/class/chaveacesso.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/90871341-e2ba-4bf9-8a89-757b4856f935/console.sql" />
         <option value="$PROJECT_DIR$/admin/chaves_acesso/gerar.php" />
+        <option value="$PROJECT_DIR$/validar_chaves.php" />
+        <option value="$PROJECT_DIR$/admin/chaves_acesso/validar_chaves.php" />
+        <option value="$PROJECT_DIR$/inc/class/chaveacesso.php" />
+        <option value="$PROJECT_DIR$/inc/class/usuario_site.php" />
+        <option value="$PROJECT_DIR$/admin/usuarios_site/incluir.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/90871341-e2ba-4bf9-8a89-757b4856f935/console.sql" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/cadastro.php" />
       </list>
     </option>
   </component>
@@ -399,9 +239,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -428,8 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -485,25 +325,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../iclassbd" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="cha&#9;FILE&#9;file:///var/www/iclass/inc/class/chaveacesso.php&#10;pri&#9;FILE&#9;file:///var/www/iclass/admin/principal.php" />
+    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;file:///var/www/iclass/pages/login.php&#10;con&#9;FILE&#9;file:///home/tairo/.WebIde100/config/consoles/db/90871341-e2ba-4bf9-8a89-757b4856f935/console.sql&#10;cha&#9;FILE&#9;file:///var/www/iclass/inc/class/chaveacesso.php&#10;pri&#9;FILE&#9;file:///var/www/iclass/admin/principal.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/admin/chaves_acesso" />
+      <recent name="$PROJECT_DIR$/admin/treinamentos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inc/class" />
       <recent name="$PROJECT_DIR$/admin/chaves_acesso/PHPExcel" />
       <recent name="$PROJECT_DIR$/admin/chaves_acesso" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin/chaves_acesso" />
-      <recent name="$PROJECT_DIR$/admin/treinamentos" />
-    </key>
   </component>
-  <component name="RunManager" selected="PHP Web Application.principal.php">
+  <component name="RunManager" selected="PHP Web Application.index">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -538,8 +379,16 @@
     <configuration default="false" name="principal.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache24" start_url="http://localhost/iclass/admin/principal.php">
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="cadastro" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache24" start_url="http://localhost/iclass/index.php?land=cadastro">
+      <method />
+    </configuration>
+    <configuration default="false" name="index" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache24" start_url="http://localhost/iclass/index.php">
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.principal.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.cadastro" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Web Application.index" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -559,24 +408,30 @@
       <option name="project" value="LOCAL" />
       <updated>1457662484381</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionado Download de excel e adicionado chaves a todos os usuarios">
+      <created>1457753324865</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457753324865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6372093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20454545" sideWeight="0.4911111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43410853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18257576" sideWeight="0.4911111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30232558" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18257576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19242424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20454545" sideWeight="0.5088889" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2883721" sideWeight="0.4969697" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40620154" sideWeight="0.4969697" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -597,15 +452,15 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5379845" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20454545" sideWeight="0.4911111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6372093" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20757575" sideWeight="0.4911111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18257576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20454545" sideWeight="0.5088889" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30232558" sideWeight="0.4969697" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25736433" sideWeight="0.4969697" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -621,7 +476,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionado PhpExcel e criado rotina de geração de chaves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado PhpExcel e criado rotina de geração de chaves" />
+    <MESSAGE value="Adicionado Download de excel e adicionado chaves a todos os usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado Download de excel e adicionado chaves a todos os usuarios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -631,144 +487,85 @@
           <line>24</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/config.inc.php</url>
           <line>32</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>1</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/admin/chaves_acesso/gerar.php</url>
+          <line>231</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/chaves_acesso/gerar.php</url>
-          <line>230</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/inc/class/usuario_site.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/class/usuario_site.php</url>
+          <line>63</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/class/usuario_site.php</url>
+          <line>125</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/class/usuario_site.php</url>
+          <line>119</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>160</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>154</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>152</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/principal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/59bacfb0-b69d-4627-9de6-37de27a02e77/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/59bacfb0-b69d-4627-9de6-37de27a02e77/iclassbd.iclass_estado">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/59bacfb0-b69d-4627-9de6-37de27a02e77/iclassbd.iclass_quiz_pontuacao">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/59bacfb0-b69d-4627-9de6-37de27a02e77/iclassbd.iclass_quiz_resposta">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.111111">
-          <caret line="358" column="31" selection-start-line="358" selection-start-column="31" selection-end-line="358" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_usuario_categoria">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_categoria">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_loja">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_perfil">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -782,18 +579,6 @@
     <entry file="file://$PROJECT_DIR$/admin/menu_bkp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_usuario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -831,16 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6666667">
           <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4827585">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1457477336805" expanded="true" signature="5332:5533" placeholder="SELECT idUsu... ${PRE}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7159864">
           <caret line="56" column="6" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1207483">
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12189616">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22799097">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,183 +777,304 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_cidade">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_usuario_site">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_chaves_acesso">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f0f7cbfe/59bacfb0-b69d-4627-9de6-37de27a02e77/iclassbd.iclass_usuario_site">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/class/usuario_site.php">
+    <entry file="file://$PROJECT_DIR$/admin/chaves_acesso/validar_chaves.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.2210884">
-          <caret line="384" column="8" selection-start-line="384" selection-start-column="8" selection-end-line="385" selection-end-column="28" />
-          <folding>
-            <marker date="1457477442023" expanded="true" signature="1440:1564" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="2299:3111" placeholder="INSERT INTO ${PRE}usuario_site... " />
-            <marker date="1457477442023" expanded="true" signature="7036:7097" placeholder="SELECT extIm... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="12275:12329" placeholder="DELETE FROM " />
-            <marker date="1457477442023" expanded="true" signature="12956:12999" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="13686:14607" placeholder="SELECT DISTI... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="13898:14014" placeholder="SELECT COUNT... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="15538:15628" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="16157:16267" placeholder="SELECT acert... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="16361:16434" placeholder="SELECT COUNT... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="17159:17661" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17178:17196" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17252:17270" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17315:17333" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17402:17420" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17470:17488" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17533:17551" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="17606:17624" placeholder="..." />
-            <marker date="1457477442023" expanded="true" signature="17742:18673" placeholder="SELECT DISTI... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="17964:18080" placeholder="SELECT COUNT... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="20011:20121" placeholder="SELECT acert... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="20215:20288" placeholder="SELECT COUNT... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="24999:25699" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25019:25037" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25102:25120" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25174:25192" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25270:25288" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25347:25365" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25419:25437" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25493:25531" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25577:25639" placeholder="..." />
-            <marker date="1457477442023" expanded="true" signature="25815:25985" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25835:25853" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="25909:25947" placeholder="..." />
-            <marker date="1457477442023" expanded="true" signature="27480:27498" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="27562:27600" placeholder="..." />
-            <marker date="1457477442023" expanded="true" signature="27601:28106" placeholder="..." />
-            <marker date="1457477442023" expanded="true" signature="27633:28095" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="28144:28160" placeholder="..." />
-            <marker date="1457477442023" expanded="false" signature="28420:28436" placeholder="..." />
-            <marker date="1457477442023" expanded="true" signature="28985:29979" placeholder="SELECT count... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="29468:29759" placeholder="SELECT DISTI... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="30202:30292" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="30437:30503" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="30811:30896" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="31039:31095" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="31866:31913" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="32057:32172" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="32326:32367" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="32587:32615" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="32784:32840" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="33016:33044" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457477442023" expanded="true" signature="33257:33328" placeholder="SELECT * FRO... ${PRE}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/class/dataBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.518518">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/chaves_acesso/gerar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0740743">
-          <caret line="187" column="41" selection-start-line="187" selection-start-column="41" selection-end-line="187" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#4;n#table#1;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#4;n#table#1;n#td#0;n#form#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1457753036861" expanded="true" signature="925:1302" placeholder="{...}" />
-            <marker date="1457753036861" expanded="true" signature="8326:8355" placeholder="..." />
-            <marker date="1457753036861" expanded="true" signature="8326:8442" placeholder="..." />
-            <marker date="1457753036861" expanded="true" signature="8326:8447" placeholder="..." />
-            <marker date="1457753036861" expanded="true" signature="8363:8401" placeholder="..." />
-            <marker date="1457753036861" expanded="true" signature="8590:8608" placeholder="..." />
-            <marker date="1457753036861" expanded="true" signature="9071:9191" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90871341-e2ba-4bf9-8a89-757b4856f935/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/class/chaveacesso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43367347">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457752549711" expanded="true" signature="353:532" placeholder="INSERT INTO ${PRE}chaves_acesso... " />
-            <marker date="1457752549711" expanded="true" signature="353:562" placeholder="INSERT INTO ${PRE}usuario... " />
-            <marker date="1457752549711" expanded="true" signature="353:563" placeholder="INSERT INTO ${PRE}chaves_acesso... " />
-            <marker date="1457752549711" expanded="true" signature="741:801" placeholder="SELECT ch.* ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="741:802" placeholder="SELECT ch.* ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="741:804" placeholder="SELECT p.* F... ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="741:816" placeholder="SELECT ch.* ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="1010:1066" placeholder="DELETE FROM " />
-            <marker date="1457752549711" expanded="true" signature="1487:1528" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="1487:1537" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="1837:1880" placeholder="SELECT * FRO... ${PRE}" />
-            <marker date="1457752549711" expanded="true" signature="2223:2272" placeholder="Update usuar... " />
-            <marker date="1457752549711" expanded="true" signature="2223:2316" placeholder="Update usuar... " />
-            <marker date="1457752549711" expanded="true" signature="2357:2379" placeholder="Update usuar... " />
+            <marker date="1457799187659" expanded="true" signature="353:532" placeholder="INSERT INTO ${PRE}chaves_acesso... " />
+            <marker date="1457799187659" expanded="true" signature="353:562" placeholder="INSERT INTO ${PRE}usuario... " />
+            <marker date="1457799187659" expanded="true" signature="353:563" placeholder="INSERT INTO ${PRE}chaves_acesso... " />
+            <marker date="1457799187659" expanded="true" signature="749:809" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="749:810" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="749:812" placeholder="SELECT p.* F... ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="749:824" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="1093:1157" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="1093:1175" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="1371:1427" placeholder="DELETE FROM " />
+            <marker date="1457799187659" expanded="true" signature="1848:1889" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="1848:1898" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="2198:2241" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457799187659" expanded="true" signature="2584:2633" placeholder="Update usuar... " />
+            <marker date="1457799187659" expanded="true" signature="2584:2677" placeholder="Update usuar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/chaves_acesso/gerar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="47" />
+          <folding>
+            <marker date="1457798573438" expanded="true" signature="925:1302" placeholder="{...}" />
+            <marker date="1457798573438" expanded="true" signature="8360:8389" placeholder="..." />
+            <marker date="1457798573438" expanded="true" signature="8360:8476" placeholder="..." />
+            <marker date="1457798573438" expanded="true" signature="8360:8481" placeholder="..." />
+            <marker date="1457798573438" expanded="true" signature="8397:8435" placeholder="..." />
+            <marker date="1457798573438" expanded="true" signature="8624:8642" placeholder="..." />
+            <marker date="1457798573438" expanded="true" signature="9105:9225" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/class/dataBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.296296">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_treinamento">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_perfil_pagina">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_perfil_usuario">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_usuario">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_chaves_acesso">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_categoria">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_cidade">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f0f7cbfe/90871341-e2ba-4bf9-8a89-757b4856f935/iclassbd.iclass_estado">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90871341-e2ba-4bf9-8a89-757b4856f935/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/class/usuario_site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.259259">
+          <caret line="779" column="13" selection-start-line="779" selection-start-column="13" selection-end-line="779" selection-end-column="13" />
+          <folding>
+            <marker date="1457811579947" expanded="true" signature="1532:1624" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="2113:2237" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="2972:3764" placeholder="INSERT INTO ${PRE}usuario_site... " />
+            <marker date="1457811579947" expanded="true" signature="2972:3774" placeholder="INSERT INTO ${PRE}usuario_site... " />
+            <marker date="1457811579947" expanded="true" signature="2972:3805" placeholder="INSERT INTO ${PRE}usuario_site... " />
+            <marker date="1457811579947" expanded="true" signature="3983:4077" placeholder="SELECT ch.* ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="7920:7981" placeholder="SELECT extIm... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="13159:13213" placeholder="DELETE FROM " />
+            <marker date="1457811579947" expanded="true" signature="13840:13883" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="14570:15491" placeholder="SELECT DISTI... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="14782:14898" placeholder="SELECT COUNT... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="16422:16512" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="17041:17151" placeholder="SELECT acert... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="17245:17318" placeholder="SELECT COUNT... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="18043:18545" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18062:18080" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18136:18154" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18199:18217" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18286:18304" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18354:18372" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18417:18435" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="18490:18508" placeholder="..." />
+            <marker date="1457811579947" expanded="true" signature="18626:19557" placeholder="SELECT DISTI... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="18848:18964" placeholder="SELECT COUNT... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="20895:21005" placeholder="SELECT acert... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="21099:21172" placeholder="SELECT COUNT... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="25883:26583" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="25903:25921" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="25986:26004" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26058:26076" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26154:26172" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26231:26249" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26303:26321" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26377:26415" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26461:26523" placeholder="..." />
+            <marker date="1457811579947" expanded="true" signature="26699:26869" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26719:26737" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="26793:26831" placeholder="..." />
+            <marker date="1457811579947" expanded="true" signature="28364:28382" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="28446:28484" placeholder="..." />
+            <marker date="1457811579947" expanded="true" signature="28485:28990" placeholder="..." />
+            <marker date="1457811579947" expanded="true" signature="28517:28979" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="29028:29044" placeholder="..." />
+            <marker date="1457811579947" expanded="false" signature="29304:29320" placeholder="..." />
+            <marker date="1457811579947" expanded="true" signature="29869:30863" placeholder="SELECT count... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="30352:30643" placeholder="SELECT DISTI... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="31086:31334" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="31479:31545" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="31853:31938" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="32081:32137" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="32908:32955" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="33099:33214" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="33368:33409" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="33629:33657" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="33826:33882" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="34058:34086" placeholder="SELECT * FRO... ${PRE}" />
+            <marker date="1457811579947" expanded="true" signature="34299:34370" placeholder="SELECT * FRO... ${PRE}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/usuarios_site/incluir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8214285">
+          <caret line="320" column="35" selection-start-line="320" selection-start-column="35" selection-end-line="320" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#13;n#table#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#td#1;n#tr#13;n#table#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cadastro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="293" column="11" selection-start-line="293" selection-start-column="11" selection-end-line="293" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#input#9;n#p#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#17;n#p#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <marker date="1457818607213" expanded="true" signature="12211:12223" placeholder="..." />
+            <marker date="1457818607213" expanded="true" signature="12396:12412" placeholder="..." />
+            <marker date="1457818607213" expanded="true" signature="12428:12440" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33128834">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding>
+            <marker date="1457817469619" expanded="true" signature="5332:5533" placeholder="SELECT idUsu... ${PRE}" />
           </folding>
         </state>
       </provider>

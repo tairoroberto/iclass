@@ -28,7 +28,8 @@ class usuario_site
 			!trim($_POST['dtNascimento']) ||
 			!trim($_POST['nomeLoja']) ||
 			!trim($_POST['cpf']) ||
-			!trim($_POST['idCidade']) )
+			!trim($_POST['idCidade']) ||
+			!trim($_POST['chave_acesso']))
 		{
 			$_SESSION['msg'] = "Preencha todos os campos obrigatórios.";
 			return 0;
@@ -59,6 +60,23 @@ class usuario_site
 				return 0;
 			}
 
+            /** Validações para chave de acesso */
+            $sqlchave = "SELECT ch.* FROM ".PRE."chaves_acesso ch WHERE ch.valor_chave = '".$_POST['chave_acesso']."' ";
+
+            $queryChaves = $this->db->query($sqlchave);
+            $chave =  $this->db->fetchObject($queryChaves);
+
+            if( !isset($chave->valor_chave) ) {
+                $_SESSION['msg'] = "Chave de acesso não existe insira outra chave.";
+                return 0;
+            }
+
+            if( $chave->ativa == 1 ) {
+                $_SESSION['msg'] = "Chave de acesso já esta sendo usado por outro usuário.";
+                return 0;
+            }
+
+
 			$sqlJaExiste = "SELECT * FROM ".PRE."usuario_site WHERE email = '".trataVarSql($_POST['email'])."' OR cpf = '".trataVarSql($_POST['cpf'])."'";
 			$queryJaExiste = $this->db->query($sqlJaExiste) or die(mysql_error()." - ".$sqlJaExiste);
 			if( $this->db->numRows($queryJaExiste) )
@@ -81,7 +99,7 @@ class usuario_site
 			$_SESSION['msg'] = "";
 			
 			//sempre cadastro os dois, independente se veio só 1. na listagem, só exibo o que foi cadastrado
-			$sql 	= "INSERT INTO ".PRE."usuario_site (nome, endereco, idCidade, idLoja, cpf, cep, dataNascto, telefone, cargo, email, senha, extImg, ativo)
+			$sql 	= "INSERT INTO ".PRE."usuario_site (nome, endereco, idCidade, idLoja, cpf, cep, dataNascto, telefone, cargo, email, senha, extImg, ativo, id_chave_acesso)
 									VALUES 
 								(	'" . trataVarSql(trim($_POST['nome'])) . "', 
 									'" . trataVarSql(trim($_POST['endereco'])) . "',
@@ -95,7 +113,8 @@ class usuario_site
 									'" . trataVarSql(trim($_POST['email'])) . "', 
 									'" . trim($_POST['senha']) . "', 
 									'" . $extImg[0] . "',
-									'" . trim($_POST['ativo']) . "'
+									'1',
+									". $chave->id_chave."
 								)";
 
 			$query	= $this->db->query($sql) or die(mysql_error()." - ".$sql);
@@ -103,7 +122,10 @@ class usuario_site
 			if( $query )
 			{
 				$idUsuarioSite = $this->db->insertId();
-				
+
+                $sqlchave = "Update ".PRE."chaves_acesso set ativa = 1 WHERE ".PRE."chaves_acesso.id_chave = ".$chave->id_chave." ";
+                $queryChaves = $this->db->query($sqlchave);
+
 				for($m=1; $m<=1; $m++)
 				{
 					if( $_FILES['imgUsuarioSite'.$m]['name'] )
@@ -757,7 +779,11 @@ class usuario_site
 	//pega um registro.
 	function getOneUsuarioSite( $idUsuarioSite )
 	{
-		$sql = "SELECT * FROM ".PRE."usuario_site WHERE idUsuarioSite = '" .trataVarSql($idUsuarioSite)."'";
+		$sql = "SELECT *, ch.valor_chave
+                  FROM ".PRE."usuario_site u
+                INNER JOIN ".PRE."chaves_acesso ch
+                    ON ch.id_chave = u.id_chave_acesso
+                WHERE idUsuarioSite = '" .trataVarSql($idUsuarioSite)."'";
 		$query = $this->db->query($sql);
 		$objUsuario = $this->db->fetchObject( $query );
 		
