@@ -53,6 +53,7 @@ $chave  = new chaveacesso();
 
         $(document).ready(function(){
             $("#alertError").css('display', 'none');
+            formChaves.action = '';
         });
 
         //verifica se os dados do formulário estão ok
@@ -73,7 +74,12 @@ $chave  = new chaveacesso();
         /*Função que envia para ferar o arquivo excel com as chaves*/
         function gerarExcel(){
             $('#acao').val('excel');
+            formChaves.action = 'excel_download.php';
+            formChaves.target = '_blank';
             formChaves.submit();
+            setTimeout(function(){
+                window.location.href = 'gerar.php';
+            }, 2000);
         }
 
     </script>
@@ -125,10 +131,16 @@ $chave  = new chaveacesso();
                                             <option value='100'>100</option>
                                     </td>
 								</tr>
+                                <tr><td>&nbsp;</td></tr>
+                                <tr><td></td></tr>
+                                <tr><td></td></tr>
 								<tr>
                                     <!-- Trigger the modal with a button -->
 									<td>
-                                        <input type="button" style="background-color: #4F6AA8; color: #FFFFFF" class="btn btn-default" onclick="submitForm();" value="Gerar" name="btGerarChaves" id="btGerarChaves" />
+                                        <input type="button" style="background-color: #4F6AA8; color: #FFFFFF;" class="btn btn-default" onclick="submitForm();" value="Gerar" name="btGerarChaves" id="btGerarChaves" />
+                                    </td>
+                                    <td>
+                                        <input type="button" style="float:right;background-color: #4F6AA8; color: #FFFFFF;" class="btn " onclick="gerarExcel();" value="Gerar Excel" name="btGerarExcel" id="btGerarExcel" />
                                     </td>
 								</tr>
 							</table>
@@ -178,9 +190,9 @@ $chave  = new chaveacesso();
         for($i =0; $i < $qtdChaves; $i++){
             $token = substr(md5(uniqid(rand(), true)), 0, 10); // token de 10 digitos
 
-           /* $chave->insertChaveAcesso(
+            $chave->insertChaveAcesso(
                 array('valor_chave' => $token, 'ativa' => 0, 'data_cadastro' => date('Y-m-d H:i:s'))
-            );*/
+            );
         }
 
 
@@ -221,19 +233,6 @@ $chave  = new chaveacesso();
                 $('#myModal').modal('show');
               </script>";
     }
-
-    if(isset($_POST["acao"]) && $_POST["acao"] == 'excel'){
-        $chaves = $chave->listaChavesAcessoInativas();
-
-        foreach ($chaves as $ch) {
-            //Rotina para gerar excel
-
-        }
-        echo "<script>
-                alert('Excel gerado!');
-              </script>";
-    }
-
 ?>
 </body>
 </html>

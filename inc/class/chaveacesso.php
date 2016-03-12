@@ -25,10 +25,7 @@ class chaveacesso {
 							" .$chave['ativa']. ",
 							'" .$chave['data_cadastro']. "')";
 
-        $query	= $this->db->query($sql);
-
-        $_SESSION['msg'] = "Chave de acesso cdasrada com sucesso.";
-        return 1;
+        return $this->db->query($sql);
     }
 
     //pega uma chave de acesso
@@ -69,6 +66,25 @@ class chaveacesso {
         }
 
         return $chaves;
+    }
+
+    public function chavearUsuarios(){
+
+        $usuariosSite = $this;
+        $db = $GLOBALS['db'];
+
+        $sql	 	= "SELECT * FROM ".PRE."usuario_site WHERE 1=1 ";
+        $query 		= $db->query($sql);
+
+        while( $usuario = $db->fetchObject( $query ) ){
+
+            $token = substr(md5(uniqid(rand(), true)), 0, 10); // token de 10 digitos
+
+            if($this->insertChaveAcesso(array('valor_chave' => $token, 'ativa' => 1, 'data_cadastro' => date('Y-m-d H:i:s')))){
+
+                $db->query('Update iclass_usuario_site set id_chave_acesso = '.mysql_insert_id().' WHERE idUsuarioSite = '.$usuario->idUsuarioSite);
+            }
+        }
     }
 }
 
