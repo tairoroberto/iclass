@@ -1,5 +1,5 @@
 <?php 
-require_once "inc/config.inc.php";
+require_once "config.inc.php";
 require_once "inc/class/usuario_site.php";
 
 $usuario_site = new usuario_site();
@@ -196,7 +196,6 @@ if( $_POST['postLogin'] == "1" )
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>iClass - Treinamento Online para Promotores, Vendedores e Gerentes de Varejo.</title>
 <link href="Util/css/index.css" rel="stylesheet" type="text/css" />
-<link href="Util/css/index_ie6.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="Util/css/lightbox.css" />
 <link rel="stylesheet" type="text/css" media="all" href="Util/jScrollPane/jScrollPane.css" />
 <link href="Util/css/scrollBoxProdutos.css" rel="stylesheet" type="text/css" />

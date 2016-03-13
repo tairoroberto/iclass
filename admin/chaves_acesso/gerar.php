@@ -137,10 +137,15 @@ $chave  = new chaveacesso();
 								<tr>
                                     <!-- Trigger the modal with a button -->
 									<td>
-                                        <input type="button" style="background-color: #4F6AA8; color: #FFFFFF;" class="btn btn-default" onclick="submitForm();" value="Gerar" name="btGerarChaves" id="btGerarChaves" />
+                                        <input type="button" style="background-color: #4F6AA8; color: #FFFFFF;"
+                                               title="Gerar novas chaves de acesso"
+                                               class="btn btn-default" onclick="submitForm();"
+                                               value="Gerar" name="btGerarChaves" id="btGerarChaves" />
                                     </td>
                                     <td>
-                                        <input type="button" style="float:right;background-color: #4F6AA8; color: #FFFFFF;" class="btn " onclick="gerarExcel();" value="Gerar Excel" name="btGerarExcel" id="btGerarExcel" />
+                                        <input type="button" style="float:right;background-color: #4F6AA8; color: #FFFFFF;"
+                                               title="Clique para gerar um arquivo excel com todas as chaves de acesso que ainda não foram utilizadas."
+                                               class="btn " onclick="gerarExcel();" value="Gerar Excel" name="btGerarExcel" id="btGerarExcel" />
                                     </td>
 								</tr>
 							</table>

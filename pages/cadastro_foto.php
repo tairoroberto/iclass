@@ -259,7 +259,7 @@ function deleteFotoAtual()
 
 <body style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #333333;">
 <form method="post" enctype="multipart/form-data" id="formCadastroFoto">
-<div style="text-align: left; padding: 10px 0 10px 5px;"><img src="../util/img/LogoIclassKaspersky.png" /></div>
+<div style="text-align: left; padding: 10px 0 10px 5px;"><img src="../Util/img/LogoIclassKaspersky.png" /></div>
 <div style="padding-left: 20px;">
     <div style="width: 530px; border: 1px solid #CCCCCC; padding: 5px;">
 		<div style="padding: 10px; color: #C00; font-weight: bold;"><?php print $msg; ?></div>

@@ -27,524 +27,568 @@
       <table id="18" parent="1" name="iclass_usuario"/>
       <table id="19" parent="1" name="iclass_usuario_categoria"/>
       <table id="20" parent="1" name="iclass_usuario_site"/>
-      <column id="21" parent="2" name="idCategoria">
+      <table id="21" parent="1" name="iclass_chaves_acesso"/>
+      <column id="22" parent="2" name="idCategoria">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="22" parent="2" name="nome">
+      <column id="23" parent="2" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="23" parent="2" name="ativo">
+      <column id="24" parent="2" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;1&apos;</default-expression>
       </column>
-      <key id="24" parent="2" name="PRIMARY">
+      <key id="25" parent="2" name="PRIMARY">
         <columns>idCategoria</columns>
         <primary>1</primary>
       </key>
-      <column id="25" parent="3" name="idCidade">
+      <column id="26" parent="3" name="idCidade">
         <mandatory>1</mandatory>
         <data-type>mediumint(8) unsigned</data-type>
       </column>
-      <column id="26" parent="3" name="id_uf">
+      <column id="27" parent="3" name="id_uf">
         <mandatory>1</mandatory>
         <data-type>tinyint(3) unsigned</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="27" parent="3" name="nome">
+      <column id="28" parent="3" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <index id="28" parent="3" name="id_uf">
+      <index id="29" parent="3" name="id_uf">
         <columns>id_uf</columns>
         <desc-columns></desc-columns>
       </index>
-      <key id="29" parent="3" name="PRIMARY">
+      <key id="30" parent="3" name="PRIMARY">
         <columns>idCidade</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="30" parent="3" name="iclass_cidade_ibfk_1">
+      <foreign-key id="31" parent="3" name="iclass_cidade_ibfk_1">
         <columns>id_uf</columns>
         <ref-key>~.iclass_estado.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="31" parent="4" name="id">
+      <column id="32" parent="4" name="id">
         <mandatory>1</mandatory>
         <data-type>tinyint(3) unsigned</data-type>
       </column>
-      <column id="32" parent="4" name="sigla">
+      <column id="33" parent="4" name="sigla">
         <mandatory>1</mandatory>
         <data-type>char(2)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="33" parent="4" name="nome">
+      <column id="34" parent="4" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(50)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="34" parent="4" name="PRIMARY">
+      <key id="35" parent="4" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="35" parent="5" name="idFabricante">
+      <column id="36" parent="5" name="idFabricante">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="36" parent="5" name="nome">
+      <column id="37" parent="5" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="37" parent="5" name="descricao">
+      <column id="38" parent="5" name="descricao">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="38" parent="5" name="linkBanner">
+      <column id="39" parent="5" name="linkBanner">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="39" parent="5" name="extImg1">
+      <column id="40" parent="5" name="extImg1">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="40" parent="5" name="extImg2">
+      <column id="41" parent="5" name="extImg2">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="41" parent="5" name="ativo">
+      <column id="42" parent="5" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;1&apos;</default-expression>
       </column>
-      <key id="42" parent="5" name="PRIMARY">
+      <key id="43" parent="5" name="PRIMARY">
         <columns>idFabricante</columns>
         <primary>1</primary>
       </key>
-      <column id="43" parent="6" name="idFabricante">
+      <column id="44" parent="6" name="idFabricante">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="44" parent="6" name="idCategoria">
+      <column id="45" parent="6" name="idCategoria">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="45" parent="7" name="idLoja">
+      <column id="46" parent="7" name="idLoja">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="46" parent="7" name="idCategoria">
+      <column id="47" parent="7" name="idCategoria">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="47" parent="7" name="nome">
+      <column id="48" parent="7" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="48" parent="7" name="ativo">
+      <column id="49" parent="7" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;1&apos;</default-expression>
       </column>
-      <key id="49" parent="7" name="PRIMARY">
+      <key id="50" parent="7" name="PRIMARY">
         <columns>idLoja</columns>
         <primary>1</primary>
       </key>
-      <column id="50" parent="8" name="idPagina">
+      <column id="51" parent="8" name="idPagina">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="51" parent="8" name="idPagina_Pai">
+      <column id="52" parent="8" name="idPagina_Pai">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="52" parent="8" name="nome">
+      <column id="53" parent="8" name="nome">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="53" parent="8" name="url">
+      <column id="54" parent="8" name="url">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="54" parent="8" name="PRIMARY">
+      <key id="55" parent="8" name="PRIMARY">
         <columns>idPagina</columns>
         <primary>1</primary>
       </key>
-      <column id="55" parent="9" name="idPerfil">
+      <column id="56" parent="9" name="idPerfil">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="56" parent="9" name="nome">
+      <column id="57" parent="9" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="57" parent="9" name="ativo">
+      <column id="58" parent="9" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;1&apos;</default-expression>
       </column>
-      <key id="58" parent="9" name="PRIMARY">
+      <key id="59" parent="9" name="PRIMARY">
         <columns>idPerfil</columns>
         <primary>1</primary>
       </key>
-      <column id="59" parent="10" name="idPerfil">
+      <column id="60" parent="10" name="idPerfil">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="60" parent="10" name="idPagina">
+      <column id="61" parent="10" name="idPagina">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <key id="61" parent="10" name="PRIMARY">
+      <key id="62" parent="10" name="PRIMARY">
         <columns>idPerfil
 idPagina</columns>
         <primary>1</primary>
       </key>
-      <column id="62" parent="11" name="idPerfil">
+      <column id="63" parent="11" name="idPerfil">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="63" parent="11" name="idUsuario">
+      <column id="64" parent="11" name="idUsuario">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <key id="64" parent="11" name="PRIMARY">
+      <key id="65" parent="11" name="PRIMARY">
         <columns>idPerfil
 idUsuario</columns>
         <primary>1</primary>
       </key>
-      <column id="65" parent="12" name="idPremio">
+      <column id="66" parent="12" name="idPremio">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="66" parent="12" name="idFabricante">
+      <column id="67" parent="12" name="idFabricante">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="67" parent="12" name="nome">
+      <column id="68" parent="12" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="68" parent="12" name="descricao">
+      <column id="69" parent="12" name="descricao">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="69" parent="12" name="extImg1">
+      <column id="70" parent="12" name="extImg1">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="70" parent="12" name="extImg2">
+      <column id="71" parent="12" name="extImg2">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="71" parent="12" name="extImg3">
+      <column id="72" parent="12" name="extImg3">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="72" parent="12" name="extImg4">
+      <column id="73" parent="12" name="extImg4">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="73" parent="12" name="ativo">
+      <column id="74" parent="12" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;1&apos;</default-expression>
       </column>
-      <key id="74" parent="12" name="PRIMARY">
+      <key id="75" parent="12" name="PRIMARY">
         <columns>idPremio</columns>
         <primary>1</primary>
       </key>
-      <column id="75" parent="13" name="idQuiz">
+      <column id="76" parent="13" name="idQuiz">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="76" parent="13" name="nome">
+      <column id="77" parent="13" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="77" parent="13" name="ativo">
+      <column id="78" parent="13" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="78" parent="13" name="idTreinamento">
+      <column id="79" parent="13" name="idTreinamento">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="79" parent="13" name="descricao">
+      <column id="80" parent="13" name="descricao">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <key id="80" parent="13" name="PRIMARY">
+      <key id="81" parent="13" name="PRIMARY">
         <columns>idQuiz</columns>
         <primary>1</primary>
       </key>
-      <column id="81" parent="14" name="idQuizPergunta">
+      <column id="82" parent="14" name="idQuizPergunta">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="82" parent="14" name="idQuiz">
+      <column id="83" parent="14" name="idQuiz">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="83" parent="14" name="pergunta">
+      <column id="84" parent="14" name="pergunta">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="84" parent="14" name="tempo">
+      <column id="85" parent="14" name="tempo">
         <comment>em segundos</comment>
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <key id="85" parent="14" name="PRIMARY">
+      <key id="86" parent="14" name="PRIMARY">
         <columns>idQuizPergunta</columns>
         <primary>1</primary>
       </key>
-      <column id="86" parent="15" name="idQuizPontuacao">
+      <column id="87" parent="15" name="idQuizPontuacao">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="87" parent="15" name="idTreinamento">
-        <mandatory>1</mandatory>
-        <data-type>int(11)</data-type>
-        <default-expression>&apos;0&apos;</default-expression>
-      </column>
-      <column id="88" parent="15" name="idUsuarioSite">
+      <column id="88" parent="15" name="idTreinamento">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="89" parent="15" name="acertos">
+      <column id="89" parent="15" name="idUsuarioSite">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="90" parent="15" name="data">
+      <column id="90" parent="15" name="acertos">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="91" parent="15" name="data">
         <mandatory>1</mandatory>
         <data-type>datetime</data-type>
         <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
       </column>
-      <key id="91" parent="15" name="PRIMARY">
+      <key id="92" parent="15" name="PRIMARY">
         <columns>idQuizPontuacao</columns>
         <primary>1</primary>
       </key>
-      <column id="92" parent="16" name="idQuizResposta">
+      <column id="93" parent="16" name="idQuizResposta">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="93" parent="16" name="idQuizPergunta">
+      <column id="94" parent="16" name="idQuizPergunta">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="94" parent="16" name="resposta">
+      <column id="95" parent="16" name="resposta">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="95" parent="16" name="certa">
+      <column id="96" parent="16" name="certa">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="96" parent="16" name="PRIMARY">
+      <key id="97" parent="16" name="PRIMARY">
         <columns>idQuizResposta</columns>
         <primary>1</primary>
       </key>
-      <column id="97" parent="17" name="idTreinamento">
+      <column id="98" parent="17" name="idTreinamento">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="98" parent="17" name="idFabricante">
+      <column id="99" parent="17" name="idFabricante">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="99" parent="17" name="nome">
+      <column id="100" parent="17" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="100" parent="17" name="descricao">
+      <column id="101" parent="17" name="descricao">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="101" parent="17" name="slides">
+      <column id="102" parent="17" name="slides">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="102" parent="17" name="extImg1">
+      <column id="103" parent="17" name="extImg1">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="103" parent="17" name="extImg2">
+      <column id="104" parent="17" name="extImg2">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="104" parent="17" name="data">
+      <column id="105" parent="17" name="data">
         <mandatory>1</mandatory>
         <data-type>datetime</data-type>
         <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
       </column>
-      <column id="105" parent="17" name="ativo">
+      <column id="106" parent="17" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <key id="106" parent="17" name="PRIMARY">
+      <key id="107" parent="17" name="PRIMARY">
         <columns>idTreinamento</columns>
         <primary>1</primary>
       </key>
-      <column id="107" parent="18" name="idUsuario">
+      <column id="108" parent="18" name="idUsuario">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="108" parent="18" name="nomeUsuario">
+      <column id="109" parent="18" name="nomeUsuario">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="109" parent="18" name="login">
+      <column id="110" parent="18" name="login">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="110" parent="18" name="senha">
+      <column id="111" parent="18" name="senha">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="111" parent="18" name="isAdmin">
+      <column id="112" parent="18" name="isAdmin">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="112" parent="18" name="sessId">
+      <column id="113" parent="18" name="sessId">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <column id="113" parent="18" name="dataCriacao">
+      <column id="114" parent="18" name="dataCriacao">
         <mandatory>1</mandatory>
         <data-type>date</data-type>
         <default-expression>&apos;0000-00-00&apos;</default-expression>
       </column>
-      <key id="114" parent="18" name="PRIMARY">
+      <key id="115" parent="18" name="PRIMARY">
         <columns>idUsuario</columns>
         <primary>1</primary>
       </key>
-      <column id="115" parent="19" name="idUsuario">
+      <column id="116" parent="19" name="idUsuario">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="116" parent="19" name="idCategoria">
+      <column id="117" parent="19" name="idCategoria">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="117" parent="20" name="idUsuarioSite">
+      <column id="118" parent="20" name="idUsuarioSite">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="118" parent="20" name="idLoja">
+      <column id="119" parent="20" name="idLoja">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="119" parent="20" name="nome">
+      <column id="120" parent="20" name="nome">
         <mandatory>1</mandatory>
         <data-type>varchar(200)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="120" parent="20" name="endereco">
+      <column id="121" parent="20" name="endereco">
         <mandatory>1</mandatory>
         <data-type>varchar(250)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="121" parent="20" name="idCidade">
+      <column id="122" parent="20" name="idCidade">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="122" parent="20" name="cpf">
+      <column id="123" parent="20" name="cpf">
         <mandatory>1</mandatory>
         <data-type>varchar(15)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="123" parent="20" name="cep">
+      <column id="124" parent="20" name="cep">
         <mandatory>1</mandatory>
         <data-type>varchar(10)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="124" parent="20" name="dataNascto">
+      <column id="125" parent="20" name="dataNascto">
         <mandatory>1</mandatory>
         <data-type>date</data-type>
         <default-expression>&apos;0000-00-00&apos;</default-expression>
       </column>
-      <column id="125" parent="20" name="telefone">
+      <column id="126" parent="20" name="telefone">
         <mandatory>1</mandatory>
         <data-type>varchar(20)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="126" parent="20" name="cargo">
+      <column id="127" parent="20" name="cargo">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="127" parent="20" name="email">
+      <column id="128" parent="20" name="email">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="128" parent="20" name="senha">
+      <column id="129" parent="20" name="senha">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="129" parent="20" name="extImg">
+      <column id="130" parent="20" name="extImg">
         <mandatory>1</mandatory>
         <data-type>varchar(4)</data-type>
         <default-expression>&apos;&apos;</default-expression>
       </column>
-      <column id="130" parent="20" name="ativo">
+      <column id="131" parent="20" name="ativo">
         <mandatory>1</mandatory>
         <data-type>set(&apos;0&apos;, &apos;1&apos;)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="131" parent="20" name="sessId">
+      <column id="132" parent="20" name="sessId">
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
-      <key id="132" parent="20" name="PRIMARY">
+      <column id="133" parent="20" name="id_chave_acesso">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="134" parent="20" name="PRIMARY">
         <columns>idUsuarioSite</columns>
+        <primary>1</primary>
+      </key>
+      <column id="135" parent="21" name="id_chave">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="136" parent="21" name="valor_chave">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="137" parent="21" name="ativa">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="138" parent="21" name="data_cadastro">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="139" parent="21" name="iclass_chaves_acesso_id_chave_uindex">
+        <columns>id_chave</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="140" parent="21" name="iclass_chaves_acesso_valor_chave_uindex">
+        <columns>valor_chave</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="141" parent="21" name="iclass_chaves_acesso_id_chave_uindex">
+        <columns>id_chave</columns>
+        <underlying-index>iclass_chaves_acesso_id_chave_uindex</underlying-index>
+      </key>
+      <key id="142" parent="21" name="iclass_chaves_acesso_valor_chave_uindex">
+        <columns>valor_chave</columns>
+        <underlying-index>iclass_chaves_acesso_valor_chave_uindex</underlying-index>
+      </key>
+      <key id="143" parent="21" name="PRIMARY">
+        <columns>id_chave</columns>
         <primary>1</primary>
       </key>
     </database-model>
