@@ -227,29 +227,78 @@ class treinamento
 			$p = $_GET['p'];
 		
 		$start 		= ($p * $regPorPag) - $regPorPag;
-		
-		$sql	 	= "SELECT DISTINCT t.idTreinamento, t.nome as nomeTreinamento, t.ativo, t.extImg1, t.extImg2, t.descricao, DATE_FORMAT(t.data , '%d/%m/%Y, às %H:%i:%s') AS dataCriacao, q.idQuiz, qp.acertos, (SELECT COUNT(*) FROM ".PRE."quiz_pontuacao WHERE idTreinamento = t.idTreinamento AND idUsuarioSite = ".$_SESSION['sess_idUsuarioSite'].") AS vezes_completado, DATE_FORMAT((SELECT data FROM ".PRE."quiz_pontuacao WHERE idTreinamento = t.idTreinamento AND idUsuarioSite =  ".$_SESSION['sess_idUsuarioSite']." ORDER BY data DESC LIMIT 1), '%d/%m/%Y, às %H:%i:%s') AS dataRealizado, u.idUsuarioSite FROM ".PRE."treinamento t INNER JOIN ".PRE."quiz q ON t.idTreinamento = q.idTreinamento INNER JOIN ".PRE."quiz_pontuacao qp ON qp.idTreinamento = q.idTreinamento INNER JOIN ".PRE."usuario_site u ON u.idUsuarioSite = qp.idUsuarioSite INNER JOIN ".PRE."fabricante f ON f.idFabricante = t.idFabricante INNER JOIN ".PRE."fabricante_categoria fc ON f.idFabricante = fc.idFabricante INNER JOIN ".PRE."loja l ON fc.idCategoria = l.idCategoria INNER JOIN ".PRE."usuario_site us ON us.idLoja = l.idLoja WHERE qp.idUsuarioSite = ".$_SESSION['sess_idUsuarioSite']." ";
+
+		$sql	 	= "SELECT DISTINCT 
+						t.idTreinamento, 
+						t.nome as nomeTreinamento, 
+						t.ativo, 
+						t.extImg1,
+						t.extImg2, 
+						t.descricao, 
+						DATE_FORMAT(t.data , '%d/%m/%Y, às %H:%i:%s') AS dataCriacao, 
+						q.idQuiz, 
+						qp.acertos, 
+						(SELECT COUNT(*) FROM ".PRE."quiz_pontuacao WHERE idTreinamento = t.idTreinamento AND idUsuarioSite = ".$_SESSION['sess_idUsuarioSite'].") AS vezes_completado, 
+						DATE_FORMAT((SELECT data FROM ".PRE."quiz_pontuacao WHERE idTreinamento = t.idTreinamento AND idUsuarioSite =  ".$_SESSION['sess_idUsuarioSite']." ORDER BY data DESC LIMIT 1), '%d/%m/%Y, às %H:%i:%s') AS dataRealizado, 
+						u.idUsuarioSite 
+					   FROM ".PRE."treinamento t 
+					   		INNER JOIN ".PRE."quiz q 
+					   			ON t.idTreinamento = q.idTreinamento 
+							INNER JOIN ".PRE."quiz_pontuacao qp 
+								ON qp.idTreinamento = q.idTreinamento 
+							INNER JOIN ".PRE."usuario_site u 
+								ON u.idUsuarioSite = qp.idUsuarioSite 
+							INNER JOIN ".PRE."fabricante f 
+								ON f.idFabricante = t.idFabricante 
+							INNER JOIN ".PRE."fabricante_categoria fc 
+								ON f.idFabricante = fc.idFabricante 
+							INNER JOIN ".PRE."loja l 
+								ON fc.idCategoria = l.idCategoria 
+							INNER JOIN ".PRE."usuario_site us 
+								ON us.idLoja = l.idLoja 
+							WHERE qp.idUsuarioSite = ".$_SESSION['sess_idUsuarioSite']." ";
+
 
 		if( $_SESSION['fNomeTreinamento'] != "" )
 		{
 			$sql .= "AND t.nome LIKE '%". str_replace(' ', '%', $_SESSION['fNomeTreinamento']) ."%'";
-		}		
-		
+		}
+
 		if( $site )
 			$sql .= " AND t.ativo = '1' AND us.idUsuarioSite = ".$_SESSION['sess_idUsuarioSite']." AND l.idLoja = ".$_SESSION['sess_idLoja']." ";
-			
+
 		$orderBy = " GROUP BY t.idTreinamento ORDER BY t.data DESC";
-		
+
 		$sql .= $orderBy;
-		
-		$tabela = paginacaoBarSite( $sql, $regPorPag, "index.php?land=treinamentos_usuario", $p, $frase );
-		
+
 		$sql		.= " LIMIT " . $start . ", " . $regPorPag;
-		
-		$query 		= $this->db->query($sql);
-		
-		while( $linha = $this->db->fetchObject( $query ) )
-		{
+
+
+		// Pego os ids do teinamentos
+		$sql_terinamento = "SELECT idTreinamento
+							  FROM iclass_quiz_pontuacao
+							  WHERE idUsuarioSite = ".$_SESSION['sess_idUsuarioSite']."
+							  GROUP BY idTreinamento";
+
+		$query_trinnamento 		= $this->db->query($sql_terinamento);
+		$array_query = array();
+		$linhas = array();
+
+		while( $treinamentos = $this->db->fetchObject( $query_trinnamento ) ){
+			$array_query[] = str_replace("WHERE qp.idUsuarioSite = ".$_SESSION['sess_idUsuarioSite']."", "WHERE t.idTreinamento = ".$treinamentos->idTreinamento."", $sql);
+		}
+
+		foreach ($array_query as $sql_query) {
+			$query_result 		= $this->db->query($sql_query);
+			while( $result = $this->db->fetchObject( $query_result ) ){
+				$linhas[] = $result;
+			}
+		}
+
+		foreach ($linhas as $linha) {
+
+			$linha = (object) $linha;
+
 			//calcula a media baseada no treinamento
 			//baseada sempre em porcentagem
 			$sqlMedia = "SELECT acertos FROM ".PRE."quiz_pontuacao WHERE idTreinamento = ".$linha->idTreinamento." AND idUsuarioSite = ".$linha->idUsuarioSite;
@@ -277,6 +326,7 @@ class treinamento
 		$grid = $this->montaGridUsuarioSite( $r );
 		
 		//grid com a paginacao
+		$tabela = paginacaoBarSite( $array_query, $regPorPag, "index.php?land=treinamentos_usuario", $p, $frase );
 		$fullGrid = $grid . "<tr><td align='center' colspan='6'>" . $tabela . "</td></tr>";
 		
 		return $fullGrid;

@@ -136,14 +136,27 @@ function paginacaoBar( $sql, $regPorPag, $link, $p )
 	return $table;	
 }
 
-function paginacaoBarSite( $sql, $regPorPag, $link, $p, $frase = "" )
-{
+function paginacaoBarSite( $sql, $regPorPag, $link, $p, $frase = "" ){
+
 	$db 			= new dataBase();
-	$query 			= $db->query($sql);
-	
-	$totalRows 		= $db->numRows($query);
-	
-	$totalPaginas 	= ceil( $totalRows / $regPorPag ); 
+	$totalRows = 0;
+	$totalPaginas = 0;
+
+	//Se for array execulta a query em um foreach
+	if(is_array($sql)){
+		foreach ($sql as $q){
+			$query_result 	= $db->query($q);
+			$totalRows 		+= $db->numRows($query_result);
+			$totalPaginas 	 = ceil( $totalRows / $regPorPag );
+		}
+	}else{
+
+		$query 			= $db->query($sql);
+
+		$totalRows 		= $db->numRows($query);
+
+		$totalPaginas 	= ceil( $totalRows / $regPorPag );
+	}
 	
 	//se não houver registros, não há paginação
 	if( !$totalRows )
